@@ -1,0 +1,104 @@
+@font-face {
+  font-family: Avenir;
+  src: url(./Avenir/AvenirRegular/AvenirRegular.ttf);
+}
+.body {
+  width: 100%;
+  height: 1024pxx;
+  margin: 0 0 0 0;
+}
+.s1 {
+  width: 637px;
+  height: 477px;
+  margin-top: 64px;
+  margin-left: 64px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+}
+.h1 {
+  width: 637px;
+  height: 264px;
+  font-size: 72px;
+  margin: 0 0 0 0;
+  color: rgba(37, 37, 37, 1);
+  font-family: Avenir;
+  line-height: 88px;
+}
+.p1 {
+  width: 519px;
+  height: 99px;
+  font-size: 24px;
+  color: rgba(37, 37, 37, 0.8);
+  font-family: Avenir;
+}
+.button {
+  width: 182px;
+  height: auto;
+  gap: 10px;
+  font-size: 24px;
+  border-radius: 36px;
+  align-items: center;
+  background-color: rgba(37, 37, 37, 1);
+  color: white;
+  font-family: Poppins;
+}
+.img {
+  position: absolute;
+}
+.img1 {
+  width: 316px;
+  height: 436px;
+  border-radius: 24px;
+  margin: 524px 0 64px 383px;
+}
+.img2 {
+  width: 316px;
+  height: 436px;
+  border-radius: 24px;
+  margin: 282px 0 0 723px;
+  object-fit: cover;
+}
+.img3 {
+  width: 316px;
+  height: 436px;
+  border-radius: 24px;
+  margin: 67px 0 0 1063px;
+  object-fit: cover;
+}
+.wave {
+  margin: 91px 0 0 498px;
+}
+.sprial {
+  margin: 674px 0 66.12px 142px;
+}
+.dwan {
+  margin: 398px 0 0 596px;
+}
+.dwan2 {
+  margin: 541px 0 0 1095px;
+}
+.s3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 24px;
+  width: 668px;
+  height: 122px;
+  margin: 838px 0 64px 708px;
+  position: absolute;
+  
+}
+.img4 {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.p2 {
+  width: 516px;
+  height: 90px;
+  font-size: 22px;
+  color: rgba(37, 37, 37, 0.8);
+  font-family: Avenir;
+}

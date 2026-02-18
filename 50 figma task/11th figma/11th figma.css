@@ -1,0 +1,96 @@
+ @font-face {
+      font-family: Avenir;
+      src: url(./Avenir/AvenirRegular/AvenirRegular.ttf);
+    }
+    .body {
+      width: 100%;
+      height: 1024px;
+    }
+    .s1 {
+      display: flex;
+      flex-direction: row;
+    }
+    .d1 {
+      margin: 144px 0 0 65px;
+    }
+    .h1 {
+      width: 637px;
+      height: 176px;
+      font-size: 72px;
+      font-family: Avenir;
+      margin: 0 0 32px 0;
+      line-height: 88px;
+      font-style: heavy;
+      font-weight: 800;
+      letter-spacing: 0%;
+      color: rgba(37, 37, 37, 1);
+    }
+    .p1 {
+      width: 586px;
+      height: 108px;
+      font-size: 26px;
+      font-family: Avenir;
+      margin: 0 0 32px 0;
+      color: rgba(37, 37, 37, 0.8);
+    }
+    .button {
+      font-family: Poppins;
+      width: 182px;
+      height: 66px;
+      font-size: 24px;
+      gap: 10px;
+      background-color: rgba(37, 37, 37, 1);
+      color: white;
+      border-radius: 36px;
+      align-items: center;
+    }
+    .img1 {
+      width: 322.6666564941406px;
+      height: 384.65679931640625px;
+      border-top-right-radius: 250px;
+      border-top-left-radius: 250px;
+      margin: 92px 0 0 828px;
+      position: absolute;
+    }
+    .img2 {
+      width: 322.6666564941406px;
+      height: 384.65679931640625px;
+      border-top-right-radius: 250px;
+      border-top-left-radius: 250px;
+      position: relative;
+      margin-top: 226px;
+      margin-left: 351px;
+    }
+    .s2 {
+      width: 1200px;
+      height: 298px;
+      gap: 8px;
+      margin-left: 64px;
+      border-radius: 40px;
+      margin-top: 108px;
+      background-color: rgba(37, 37, 37, 1);
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0px 64px 0px 64px;
+    }
+    .icon {
+      width: 24px;
+      height: 16px;
+      opacity: 0.5;
+    }
+    .h2 {
+      width: 316px;
+      height: 44px;
+      font-size: 32px;
+      color: rgba(255, 255, 255, 0.8);
+      font-family: Avenir;
+    }
+    .p2 {
+      width: 316px;
+      height: 66px;
+      color: rgba(255, 255, 255, 0.8);
+      font-size: 24px;
+      font-family: Avenir;
+    }

@@ -1,0 +1,60 @@
+.body {
+      width: 1440px;
+      height: 926px;
+      background-color: rgba(47, 47, 47, 1);
+      font-family: Poppins;
+      display: flex;
+      flex-direction: row;
+    }
+    .s1 {
+      margin: 169px 0 0 132px;
+    }
+    .h {
+      display: flex;
+      flex-direction: column;
+    }
+    .h1 {
+      font-size: 72px;
+      color: rgba(254, 195, 199, 1);
+      margin: 0 0 0 0;
+      padding: 0 0 0 0;
+    }
+    .h2 {
+      font-size: 72px;
+      color: rgba(154, 215, 243, 1);
+      margin: 0 0 0 0;
+      padding: 0 0 0 0;
+    }
+    .h3 {
+      font-size: 72px;
+      color: rgba(107, 223, 218, 1);
+      margin: 0 0 0 0;
+      padding: 0 0 0 0;
+    }
+    .p {
+      width: 449px;
+      height: 144px;
+      font-size: 24px;
+      color: rgba(255, 255, 255, 1);
+    }
+    .button {
+      width: 182px;
+      height: 66px;
+      gap: 10px;
+      border-radius: 36px;
+      align-items: center;
+      background-color: rgba(255, 255, 255, 1);
+      font-size: 24px;
+      color: rgba(35, 35, 35, 1);
+    }
+    .img {
+      width: 172px;
+      height: 192px;
+      border-radius: 40px;
+      
+      size: 100%;
+    }
+    .s2{
+        grid-template-rows: repeat(4,4);
+        margin: 67px  0 0 64px;
+    }

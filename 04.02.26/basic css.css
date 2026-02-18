@@ -1,0 +1,123 @@
+.header{
+     width: 100%;
+     border-bottom: 5px  #828282;
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     border-bottom: 1px  solid  #828282;
+    
+}
+.s2{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows:300px 300px;
+    width: 100%;
+    height: 728px;
+    gap: 10px;
+    margin-left: 250px;
+    
+}
+.searchbarwhole{
+    display: flex;
+    align-items: center;
+
+}
+
+.searchbar{
+    width: 304px;
+    height: 40px;
+    background-color: #f7f7f7;
+    border-radius: 35px;
+    margin: 8px 20px 8px 12px;
+    gap: 10px;
+    border-color:  #f7f7f7;
+  
+    
+} 
+ .parent{
+    height: 300px;
+    width: 100%;
+    
+    
+
+}
+.card1{
+    width: 332px;
+    height: 288px;
+    border-radius: 24px;
+    border: 1p   #828282;
+    transition: box-shadow 0.3s ease;
+}
+.card1:hover{
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 2);
+}
+.card2{
+    width: 332px;
+    height: 288px;
+    border-radius: 24px;
+    border: 1p   #828282;
+    transition: box-shadow 0.3s ease;
+}
+.card2:hover{
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 2);
+}
+.card3{
+    width: 332px;
+    height: 288px;
+    border-radius: 24px;
+    border: 1p   #828282;
+    transition: box-shadow 0.3s ease;
+}
+.card3:hover{
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 2);
+}
+.card4{
+    width: 332px;
+    height: 288px;
+    border-radius: 24px;
+    border: 1p   #828282;
+    transition: box-shadow 0.3s ease;
+}
+.card4:hover{
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 2);
+}
+.card5{
+    width: 332px;
+    height: 288px;
+    border-radius: 24px;
+    border: 1p   #828282;
+    transition: box-shadow 0.3s ease;
+}
+.card5:hover{
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 2);
+}
+.card6{
+    width: 332px;
+    height: 288px;
+    border-radius: 24px;
+    border: 1p   #828282;
+    transition: box-shadow 0.3s ease;
+}
+.card6:hover{
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 2);
+}
+.card7{
+    width: 332px;
+    height: 288px;
+    border-radius: 24px;
+    border: 1p   #828282;
+    transition: box-shadow 0.3s ease;
+}
+.card7:hover{
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 2);
+}
+.card8{
+    width: 332px;
+    height: 288px;
+    border-radius: 24px;
+    border: 1p   #828282;
+    transition: box-shadow 0.3s ease;
+}
+.card8:hover{
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 2);
+}
