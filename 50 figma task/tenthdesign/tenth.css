@@ -57,4 +57,5 @@
     .s2{
         grid-template-rows: repeat(4,4);
         margin: 67px  0 0 64px;
+        object-fit: cover;
     }
