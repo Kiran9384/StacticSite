@@ -13,18 +13,21 @@
     }
 
     .parent {
-        width: 1440px;
+        width: 100%;
         height: 1272px;
         font-family: avenir;
 
     }
+    .d2{
+        margin: 137px 932px 0 64px;
+        position: absolute;
+        }
 
     .h1 {
         width: 444px;
         height: 231px;
         font-size: 56px;
         font-family: avenir;
-        margin-top: 137px;
     }
 
     .p1 {
@@ -32,7 +35,6 @@
         height: 144px;
         font-family: avenir;
         font-size: 26px;
-        padding-top: 15px;
         color: rgb(85, 84, 84);
     }
 
@@ -44,31 +46,37 @@
         border-radius: 16px;
         background-color: black;
         color: rgb(167, 161, 161);
-        margin-top: 15px;
     }
 
     .d1 {
         display: flex;
-        flex-direction: row;
-    }
+        justify-content: flex-end;
+       gap: 35px;
+    } 
 
     .img1 {
         width: 408px;
         height: 480px;
         border-radius: 16px;
-        margin: 50px 10px 0 50px;
+       position: relative;
+       margin: 65px 0px 0 37px;
+       object-fit: cover;
     }
 
     .img2 {
         width: 408px;
         height: 480px;
         border-radius: 16px;
-        margin: 220px 10px 0 60px;
+        position: relative;
+        margin: 217px 17px 0 0;
+        object-fit: cover;
+       
     }
     .s2{
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
+        margin-top: 72px;
     }
 
     .img {
@@ -81,8 +89,7 @@
 
 <body>
     <section class="parent">
-        <div class="d1">
-            <div class="">
+            <div class=" d2">
                 <h1 class="h1">
                     Discover the beauty around the world
                 </h1>
@@ -93,6 +100,7 @@
                     <p>Get started</p>
                 </button>
             </div>
+            <div class="d1">
             <img class="img1" src="./1.jpg" alt="">
             <img class="img2" src="./2.jpg" alt="">
         </div>
