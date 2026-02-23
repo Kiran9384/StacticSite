@@ -1,0 +1,103 @@
+@font-face {
+  font-family: Avenir;
+  src: url(./Avenir/AvenirHeavy/AvenirHeavy.ttf);
+}
+.body {
+  width: 1440px;
+  height: 1024px;
+  background: linear-gradient(#09212c 30%, #043e49 70%);
+  margin: 0 0 0 0;
+  font-family: Avenir;
+}
+.bg {
+  width: 1024px;
+  height: 1024px;
+  margin: 0 0 0 416px;
+  position: absolute;
+}
+.div1 {
+  width: 724px;
+  height: 518px;
+  margin: 193px 0 0 64px;
+  border-radius: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 40px 0 0 56px;
+  background: rgba(0, 0, 0, 0.15);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  border: none;
+  position: absolute;
+}
+.color {
+  width: 80px;
+  height: 16px;
+}
+.h1 {
+  width: 612px;
+  height: 144px;
+  font-size: 64px;
+  font-weight: 800;
+  line-height: 72px;
+  margin: 0 0 0 0;
+  color: white;
+}
+.p1 {
+  width: 586px;
+  height: 108px;
+  font-size: 24px;
+  font-weight: 400;
+  margin: 0 0 0 0;
+  color: white;
+}
+.button {
+  width: 182px;
+  height: 66px;
+  border-radius: 36px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(99, 225, 225, 1);
+
+  border: none;
+  margin: 0 0 0 0;
+  font-size: 24px;
+}
+.div2 {
+  width: 1312px;
+  color: white;
+  height: 171px;
+  border-radius: 32px;
+  display: flex;
+  flex-direction: row;
+  gap: 92px;
+  background: rgba(0, 0, 0, 0.15);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  position: absolute;
+  margin: 794px 0 0 64px;
+  border: 1px solid #607a7f;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.logo {
+  width: 24px;
+  height: 24px;
+  margin: 0 0 0 0;
+}
+.h2 {
+  width: 82px;
+  height: 33px;
+  font-size: 24px;
+  margin: 0 0 0 0;
+}
+.p2 {
+  width: 231px;
+  height: 50px;
+  font-size: 16px;
+  margin: 0 0 0 0;
+}

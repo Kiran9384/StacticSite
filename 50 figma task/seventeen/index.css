@@ -1,0 +1,98 @@
+@font-face {
+      font-family: Avenir;
+      src: url(./Avenir/AvenirRegular/AvenirRegular.ttf);
+    }
+    .body {
+      width: 100%;
+      height: 1475px;
+    }
+    .d1 {
+      place-items: center;
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+      margin-top: 64px;
+    }
+    .h1 {
+      width: 695px;
+      height: 84px;
+      font-size: 56px;
+      line-height: 84px;
+      font-weight: 600;
+      font-family: Poppins;
+      margin: 0 0 0 0;
+    }
+    .p1 {
+      width: 689px;
+      height: 99px;
+      font-size: 24px;
+      font-family: Avenir;
+      font-weight: 400;
+      line-height: 100%;
+      margin: 0 0 0 0;
+      text-align: center;
+    }
+    .button {
+      width: 182px;
+      height: 66px;
+      gap: 10px;
+      font-size: 24px;
+      border-radius: 36px;
+      align-items: center;
+      background-color: black;
+      color: white;
+      margin: 0 0 0 0;
+      justify-content: center;
+      font-family: Poppins;
+    }
+    .d2 {
+      width: 1048px;
+      height: 191px;
+      position: absolute;
+      border-radius: 48px;
+      background-color: white;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+      font-family: Avenir;
+      margin: 56px 0 0 140px;
+      z-index: 1;
+    }
+    .h2 {
+      width: 71px;
+      height: 33px;
+      font-size: 24px;
+      font-weight: 800;
+      margin: 0 0 0 0;
+    }
+    .rectangle {
+      width: 66px;
+      height: 4px;
+    }
+    .p2 {
+      width: 176px;
+      height: 50px;
+      font-weight: 400;
+      font-size: 18px;
+    }
+    .img1 {
+      width: 1312px;
+      height: 526px;
+      border-radius: 24px;
+      position: relative;
+      margin: 130px 0 0 10px;
+      object-fit: cover;
+    }
+    .d3 {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      margin: 40px 0 0 0;
+    }
+    .img {
+      width: 411px;
+      height: 344px;
+      border-radius: 32px;
+      object-fit: cover;
+    }
