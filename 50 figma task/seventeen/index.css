@@ -56,7 +56,8 @@
       justify-content: space-around;
       align-items: center;
       font-family: Avenir;
-      margin: 56px 0 0 140px;
+      top:417px ;
+      left:140px ;
       z-index: 1;
     }
     .h2 {
@@ -65,6 +66,7 @@
       font-size: 24px;
       font-weight: 800;
       margin: 0 0 0 0;
+      
     }
     .rectangle {
       width: 66px;
@@ -81,14 +83,18 @@
       height: 526px;
       border-radius: 24px;
       position: relative;
-      margin: 130px 0 0 10px;
+      top: 130px;
+      left:10px ;
       object-fit: cover;
     }
     .d3 {
       display: flex;
       flex-direction: row;
+      position: absolute;
       justify-content: space-evenly;
-      margin: 40px 0 0 0;
+      top: 1070px;
+      left: 14px;
+      gap: 40px;
     }
     .img {
       width: 411px;

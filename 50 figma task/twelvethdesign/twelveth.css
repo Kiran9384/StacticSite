@@ -5,16 +5,16 @@
 .body {
   width: 100%;
   height: 1024pxx;
-  margin: 0 0 0 0;
+  margin: 0 0 40px 24px;
 }
 .s1 {
   width: 637px;
   height: 477px;
-  margin-top: 64px;
-  margin-left: 64px;
+  top: 64px;
   display: flex;
   flex-direction: column;
   position: absolute;
+  gap: 24px;
 }
 .h1 {
   width: 637px;
@@ -31,10 +31,11 @@
   font-size: 24px;
   color: rgba(37, 37, 37, 0.8);
   font-family: Avenir;
+  margin: 0 0 0 0;
 }
 .button {
   width: 182px;
-  height: auto;
+  height: 66px;
   gap: 10px;
   font-size: 24px;
   border-radius: 36px;
@@ -42,41 +43,55 @@
   background-color: rgba(37, 37, 37, 1);
   color: white;
   font-family: Poppins;
-}
-.img {
-  position: absolute;
+  margin: 0 0 0 0;
 }
 .img1 {
+  position: absolute;
   width: 316px;
   height: 436px;
   border-radius: 24px;
-  margin: 524px 0 64px 383px;
+  top: 524px;
+  left: 343px;
+  bottom: 64px;
 }
 .img2 {
+  position: absolute;
   width: 316px;
   height: 436px;
   border-radius: 24px;
-  margin: 282px 0 0 723px;
+  top: 282px;
+  left: 683px;
   object-fit: cover;
 }
 .img3 {
+  position: absolute;
   width: 316px;
   height: 436px;
   border-radius: 24px;
-  margin: 67px 0 0 1063px;
+  top: 67px;
+  left: 1023px;
   object-fit: cover;
 }
 .wave {
-  margin: 91px 0 0 498px;
+  position: absolute;
+  top: 91px;
+left: 458px;  
 }
 .sprial {
-  margin: 674px 0 66.12px 142px;
+  position: absolute;
+  top: 674px;
+  bottom: 66.12px;
+  left: 18px;
 }
 .dwan {
-  margin: 398px 0 0 596px;
+position: absolute;
+  top: 398px;
+  left: 556px;
 }
 .dwan2 {
-  margin: 541px 0 0 1095px;
+  position: absolute;
+  top: 541px;
+  left: 1055px;
 }
 .s3 {
   display: flex;
@@ -85,7 +100,9 @@
   gap: 24px;
   width: 668px;
   height: 122px;
-  margin: 838px 0 64px 708px;
+  top: 838px;
+  bottom: 64px;
+  left: 668px;
   position: absolute;
   
 }

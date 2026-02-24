@@ -1,7 +1,7 @@
 .body {
       font-family: Poppins;
       margin: 0 0 0 0;
-      padding: 0 0 0 64px;
+      padding: 0 0 0 14px;
     }
     .d1 {
       width: 568px;
@@ -10,7 +10,7 @@
       flex-direction: column;
       gap: 32px;
       position: absolute;
-      margin: 208px 0 0 0px;
+      top: 208px;
     }
     .h1 {
       width: 568px;
@@ -50,7 +50,7 @@
       align-items: center;
       justify-content: space-evenly;
       position: absolute;
-      margin: 702px 0 0 0px;
+      top: 702px;
     }
     .h2 {
       width: 38px;
@@ -71,7 +71,8 @@
     }
     .imgphone {
       position: absolute;
-      margin: 359px 0 0 721px;
+      top: 409px;
+      left: 671px;
       width: 472px;
       height: 503.4666748046875px;
       z-index: 4;
@@ -82,37 +83,47 @@
       height: 572px;
       position: absolute;
       background-color: rgba(255, 221, 129, 1);
-      margin: 82px 0 0 717px;
+      top: 132px;
+      left: 668px;
       z-index: 1;
     }
     .portal1 {
-      margin-bottom: 390px;
-      margin-left: 327px;
+      position: absolute;
+      bottom: 400px;
+      left: 330px;
     }
     .div4 {
       width: 473.34315392667054px;
       height: 552.9636397268325px;
       background-color: rgba(42, 33, 28, 1);
       transform: rotate(-155deg);
-      margin: 160px 0 0 830px;
+      top: 210px;
+      left: 780px;
       position: absolute;
+      border-top-left-radius: 150px;
     }
     .portal2 {
-      margin-top: 390px;
+      position: absolute;
+      top: 380px;
+      
     }
     .heart {
       width: 272.3545227050781px;
       height: 239px;
       position: absolute;
-      margin: 322px 0 0 820px;
+      top: 372px;
+      left: 770px;
       z-index: 3;
     }
     .star1{
       position: absolute;
-      margin: 0px  0 0 628px;
+      top: 47px;
+      left: 578px;
       z-index: 1;
+
     }
     .star2{
       position: absolute;
-      margin: 650px  0 0 1200px;
+      top: 700px;
+      left: 1150px;
     }
