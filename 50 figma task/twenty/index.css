@@ -138,6 +138,7 @@
   width: 186px;
   height: 246px;
   border-radius: 16px;
+  object-fit: cover;
 }
 .p3 {
   width: 168px;
