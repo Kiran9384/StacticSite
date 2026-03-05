@@ -1,5 +1,5 @@
 @font-face {
-  font-family: Times New Roman;
+  font-family: Times;
   src: url(./times-new-roman/times.ttf);
 }
 .body {
@@ -43,7 +43,7 @@
 .h1 {
   width: 698px;
   height: 160px;
-  font-family: Times New Roman;
+  font-family:'Times New Roman', Times, serif ;
   font-weight: 700;
   font-style: Bold;
   font-size: 72px;
@@ -96,7 +96,7 @@
   left: 50px;
 }
 .h2 {
-  width: 177px;
+  width: 100%;
   height: 144px;
   font-family: Times New Roman;
   font-weight: 400;

@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="carddesign"></div>
+  </body>
+  <script>
+    const carddesign = document.getElementById("carddesign");
+    carddesign.style.width = "200px";
+    carddesign.style.height = "300px";
+    carddesign.style.backgroundColor = "red";
+
+    const h1 = document.createElement("h1");
+    h1.innerText = "hello";
+    carddesign.append(h1);
+    h1.style.color = "blue";
+  </script>
+</html>

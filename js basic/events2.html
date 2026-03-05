@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form</title>
+</head>
+<body>
+
+    <label>Name</label>
+    <input id="name" type="text" placeholder="Enter Your name">
+    <br><br>
+
+    <label>Email</label>
+    <input id="email" type="text" placeholder="Enter Your Email Id">
+    <br><br>
+
+    <label>Number</label>
+    <input id="number" type="number" placeholder="Enter Your number">
+    <br><br>
+
+    <label>Street Name</label>
+    <input id="street" type="text" placeholder="Enter Your street name">
+    <br><br>
+
+    <label>City</label>
+    <input id="city" type="text" placeholder="Enter Your city">
+    <br><br>
+
+    <label>Pincode</label>
+    <input id="pincode" type="number" placeholder="Enter Your pincode">
+    <br><br>
+
+    <button onclick="buttoneffect()">Submit</button>
+
+<script>
+function buttoneffect(){
+    let name = document.getElementById("name").value;
+    let email = document.getElementById("email").value;
+    let number = document.getElementById("number").value;
+    let street = document.getElementById("street").value;
+    let city = document.getElementById("city").value;
+    let pincode = document.getElementById("pincode").value;
+
+    alert(
+        "Saved Successfully\n\n" +
+        "Name: " + name + "\n" +
+        "Email: " + email + "\n" +
+        "Number: " + number + "\n" +
+        "Street: " + street + "\n" +
+        "City: " + city + "\n" +
+        "Pincode: " + pincode
+    );
+}
+</script>
+
+</body>
+</html>

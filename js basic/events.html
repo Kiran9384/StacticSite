@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            border: 2px solid black;
+            margin: auto;
+            background-color:blanchedalmond;
+        }
+    </style>
+</head>
+
+<body>
+
+    <label > name</label><input onchange="getinput(event)" type="text" placeholder="Enter Your name">
+    <br><br>
+    <label > Email</label><input onchange="getinput2(event)" type="text" placeholder="Enter Your Email Id">
+    <br><br>
+    <label > number</label><input onchange="getinput3(event)" type="number" placeholder="Enter Your number">
+    <br><br>
+    <label > city</label><input onchange="getinput4(event)" type="text" placeholder="Enter Your city">
+    <br><br>
+    
+    
+    <br><br>
+    <button onclick="buttoneffect()">submit</button>
+
+
+    <table>
+        
+        <thead>
+            <tr>
+            <th>name</th>
+            <th>email</th>
+            <th>number</th>
+            <th>city</th>
+            </tr>
+        </thead>
+       
+        <tbody id="tbody">
+           
+    </table>
+</body>
+<script>
+     let inputvalue={
+        name: "",
+        email: "",
+        number: "",
+        city: "",
+     }
+    function getinput(event){
+        inputvalue.name=event.target.value
+    }
+    function getinput2(event){
+        inputvalue.email=event.target.value
+    }
+    function getinput3(event){
+        inputvalue.number=event.target.value
+    }
+    function getinput4(event){
+        inputvalue.city=event.target.value
+    }
+    function buttoneffect(){
+        //alert( "saved sucessfully "+ inputvalue.name +"\n "+ inputvalue.email +"\n "+ inputvalue.number +"\n "+ inputvalue.city)
+      const tr = document.createElement("tr");
+      const td1 = document.createElement("td");
+      const td2 = document.createElement("td");
+      const td3 = document.createElement("td");
+      const td4 = document.createElement("td");
+
+
+      td1.innerText = inputvalue.name;
+      td2.innerText = inputvalue.email;
+      td3.innerText = inputvalue.number;
+      td4.innerText = inputvalue.city;
+
+      tr .appendChild(td1);
+      tr .appendChild(td2);
+      tr .appendChild(td3);
+      tr .appendChild(td4);
+      
+      const tbody = document.getElementById("tbody");
+      tbody.appendChild(tr);
+      
+    
+    
+    
+    }
+    
+</script>
+</html>
