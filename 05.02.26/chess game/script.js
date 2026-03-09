@@ -48,7 +48,7 @@ gameArea.appendChild(line);
 
 let car=document.createElement("div");
 car.classList.add("car");
-car.style.background="red";        
+car.style.backgroundImage="url('images.jpg')";        
 gameArea.appendChild(car);
 
 player.x=130;
