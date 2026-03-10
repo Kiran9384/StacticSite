@@ -1,0 +1,170 @@
+.body {
+  width: 100%;
+  height: 1024px;
+  margin: 0;
+}
+.div1 {
+  width: 511px;
+  height: 606px;
+  top: 103px;
+  left: 24px;
+  gap: 32px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+}
+.h1 {
+  width: 511px;
+  height: 148px;
+  angle: 0 deg;
+  opacity: 1;
+  font-family: Zilla Slab;
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 62px;
+  leading-trim: NONE;
+  line-height: 100%;
+  letter-spacing: 0%;
+  margin: 0;
+}
+.h2 {
+  width: 379px;
+  height: 148px;
+  angle: 0 deg;
+  opacity: 1;
+  font-family: Zilla Slab;
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 62px;
+  leading-trim: NONE;
+  line-height: 100%;
+  letter-spacing: 0%;
+  margin: 0;
+}
+
+.span {
+  font-family: Zilla Slab;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 62px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: rgba(227, 182, 53, 1);
+}
+.divider {
+  width: 452px;
+  height: 4px;
+  margin: 0;
+}
+.p1 {
+  width: 463px;
+  height: 136px;
+  font-family: Inter;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 24px;
+  leading-trim: NONE;
+  line-height: 34px;
+  letter-spacing: 0%;
+  margin: 0;
+}
+
+.button {
+  width: 200px;
+  height: 66px;
+  border-radius: 40px;
+  align-items: center;
+  font-family: Inter;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 22px;
+  line-height: 18px;
+  letter-spacing: 0%;
+  background: rgba(227, 182, 53, 1);
+  border: none;
+}
+.s1 {
+  display: flex;
+  flex-direction: row;
+  width: 607px;
+  height: 179px;
+  position: absolute;
+  top: 781px;
+  left: 24px;
+  gap: 20px;
+}
+.d1 {
+  width: 189px;
+  height: 179px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: 18px;
+  align-items: center;
+  justify-content: center;
+  background: rgba(36, 36, 36, 1);
+  border: none;
+  color: white;
+}
+.mnote {
+  width: 24px;
+  height: 24px;
+}
+.h3 {
+  width: 40px;
+  height: 27px;
+  font-family: Inter;
+  font-weight: 600;
+  font-style: Semi Bold;
+  font-size: 22px;
+  leading-trim: NONE;
+  line-height: 100%;
+  letter-spacing: 0%;
+  margin: 0;
+}
+.p2 {
+  width: 93px;
+  height: 60px;
+  font-family: Inter;
+  font-weight: 300;
+  font-style: Light;
+  font-size: 15px;
+  leading-trim: NONE;
+  line-height: 20px;
+  letter-spacing: 0%;
+  margin: 0;
+}
+.div2 {
+  width: 376px;
+  height: 501px;
+  position: absolute;
+  left: 960px;
+  border-bottom-left-radius: 250px;
+  border-bottom-right-radius: 250px;
+  background-color: rgba(227, 182, 53, 1);
+}
+.Asterisk {
+  width: 413.0000009685397px;
+  height: 406.0000009521238px;
+  top: 99px;
+  left: 494px;
+  border-width: 2px;
+  position: absolute;
+}
+.img1 {
+  width: 565px;
+  height: 960px;
+  left: 632px;
+  top: 0px;
+  position: absolute;
+  z-index: 1;
+  object-fit: cover;
+}
+.Star {
+  width: 249.33202947964952px;
+  height: 260.3276043527487px;
+  position: absolute;
+  top: 668px;
+  left: 1098px;
+  border-width: 2.12px;
+}
